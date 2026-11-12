@@ -1,0 +1,28 @@
+{
+  "name": "pi-context-meter",
+  "version": "0.1.0",
+  "description": "measured context usage injected every turn, so the model quotes a measurement and not a guess",
+  "type": "module",
+  "pi": {
+    "extensions": [
+      "./src/context-meter.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "license": "MIT",
+  "keywords": [
+    "pi-package"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmatzen/pi-context-meter.git"
+  },
+  "author": "kmatzen",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ]
+}
